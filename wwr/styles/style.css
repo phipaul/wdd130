@@ -124,7 +124,7 @@ body {
 }
 .card-img {
     border: 10px solid #d9c2a3;
-    transition: 10px solid #d9c2a3;
+    /*transition: 10px solid #d9c2a3;*/
     box-shadow: 5px 5px 10px #6f7364;
 }
 .card-img:hover{
@@ -283,3 +283,38 @@ river-main{
     grid-column: 3/5;
     grid-row: 3/3
 }
+
+/*.idaho-river-card {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    margin-bottom: 50px;
+}
+.utah-river-card {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 0px;
+    margin-bottom: 50px;
+}
+.arizona-river-card {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    margin-bottom: 50px;
+}
+.idaho-h2, .utah-h2, .arizona-h2  {
+    width: 100%;
+    height: 200px;
+}
+  
+.river-paragraph {
+    width: 100%;
+    height: 200px;
+}
+*/
