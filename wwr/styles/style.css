@@ -139,7 +139,7 @@ main{
     width: 100%;
 }
 .rivers-card {
-    grid-column: 2/4;
+    grid-column: 2/4; 
     grid-row:2/3;
 }
 .camping-card {
@@ -148,10 +148,6 @@ main{
 }
 .rapids-card {
     grid-column: 8/10;
-    grid-row:2/3;
-}
-.rivers-card {
-    grid-column: 2/4;
     grid-row:2/3;
 }
 #backgrouds{
@@ -238,4 +234,52 @@ footer .social img{
     footer {
         margin-top: 25px;
     }
+}
+
+/* this is for rivers.html */
+
+.rivers-title {
+    font-family: 'Monserrat', 'Alfa Slab One', sans-serif;
+    font-size: 2em;
+    color: #d9c2a3;
+    margin-top: 10px;
+}
+
+river-main{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr 1fr;
+}
+
+.river-card-img{
+    width: 100%;
+}
+.idaho-river-card{
+    grid-column: 3/5; 
+    grid-row:2/3;
+}
+.utah-river-card{
+    grid-column: 1/3; 
+    grid-row:1/1;
+}
+.arizona-river-card{
+    grid-column: 1/3; 
+    grid-row:3/3;
+}
+
+.river-msg h2{
+    color: white;
+}
+.river-msg p{
+    color: white;
+    padding-bottom: 15px;
+}
+.river-msg {
+    line-height: 1.5em;
+    padding: 35px;
+}
+
+.arizona-river-paragraph {
+    grid-column: 3/5;
+    grid-row: 3/3
 }
